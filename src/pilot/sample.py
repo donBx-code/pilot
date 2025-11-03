@@ -1,7 +1,12 @@
 
-def main():
-    print("running main() in sample.py")
+def info():
+    print("This is a test!!!")
 
-if __name__ == "__main__":
-    main()
+def add(a, b) -> int:
+    return a + b
 
+def s() -> None:
+    for i in range(10):
+        print(i**2)
+
+    
